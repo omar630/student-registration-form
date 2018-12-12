@@ -1,0 +1,41 @@
+form{
+	padding-top:4%;
+	text-align: center;
+	
+}
+.title{
+	padding-bottom: 18px; 
+	padding-left: 50px;
+}
+select {  
+  background-color: #f1f1f1;
+}
+.card {
+  height: auto;		/*card height*/
+  border-left: 10px solid #ff66ff;
+  border-right: 10px solid #FFF;
+  margin: 50px auto;
+  background-repeat: no-repeat;
+  background-size: 550px 10px;
+	padding-right: 20px;
+	width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1.4em;
+    transition: 0.3s;
+    margin-bottom: .5em;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.card:hover {
+   box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 1px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: center;
+}
